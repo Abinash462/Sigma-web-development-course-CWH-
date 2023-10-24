@@ -1,0 +1,28 @@
+ body{
+    background-color: gray;
+    color: white;
+} 
+td{
+    border: 2px solid black;
+}
+
+.blue{
+    background-color: green;
+}
+
+#new{
+    background-color: purple;
+}
+
+/* p{
+    background-color: aquamarine;
+}
+div{
+    background-color: rebeccapurple;
+}
+span{
+    background-color: lightcoral;
+}
+a{
+    background-color: navajowhite;
+} */
