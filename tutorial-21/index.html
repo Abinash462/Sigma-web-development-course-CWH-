@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+</head>
+<style>
+    div{
+        color:purple;
+    }
+     .cred{
+        color: red;
+     }
+     .cblue{
+        color:blue;
+     }
+     .cgreen{
+        color:green;
+     }
+     [data-x=a]{
+        color:aqua;
+     }
+     div {
+      color:blueviolet !important;
+     }
+</style>
+<body>
+    <div class="cred cgreen cblue" data-x="a">I am the 1st paragraph</div>
+</body>
+</html>
