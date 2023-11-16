@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing units</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        box-sizing: border-box;
+        border: 2px solid red;
+        width: 80vw;
+        height:10vh;
+        margin:auto;
+        background-color: aquamarine;
+    }
+    .container{
+        box-sizing: border-box;
+        border: 2px solid red;
+        width: 80vw;
+        height:80vh;
+        min-height: 80vh;
+        margin: 23px auto;
+        background-color: aquamarine;
+        font-size: 16px;
+    }
+    .container>div{
+        width:50%;
+        border:2px solid red;
+        /* font-size: 2em; */
+    }
+    .container>div>div{
+        width:50%;
+        border:2px solid red;
+    }
+    .mycont{
+        box-sizing: border-box;
+        border: 2px solid red;
+        color:blue;
+        width: 80vw;
+        margin: 23px auto;
+        /* font-size: 2rem; */
+    }
+</style>
+<body>
+    <div class="box">
+        This is first paragraph.
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam distinctio inventore autem porro. Incidunt quis maxime dicta quas ducimus cum, voluptates recusandae velit fugiat impedit magnam ipsa et rerum reprehenderit, ipsam sint? Consectetur voluptatum mollitia ut suscipit laborum minima quo veritatis quis ab voluptas?
+           <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, modi eum. Recusandae eius omnis porro ex exercitationem molestiae accusantium consequuntur!
+           </div>
+        </div>
+    </div>
+
+    <div class="mycont">
+        This is last para
+    </div>
+</body>
+</html>
